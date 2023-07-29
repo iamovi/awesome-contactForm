@@ -2,12 +2,16 @@
 
 /* default settings */
 body{
+    background: url(image21.jpg)no-repeat;
+    background-size: cover;
     font-family:sans-serif, arial !important;
     transition: all 0.5s ease;
+    
 }
 p{
     line-height: 150%;
     margin-bottom: 1em;
+    color: white;
 }
 .containerFull{
     width: 100%;
@@ -50,8 +54,8 @@ p{
 #sidebar .sideContent #boxWrapper{
     width: 400px;
     height: 340px;
-    background-color: #EBEBEB;
     margin-left: 90px;
+    opacity: 0.8;
     
 }
 #sidebar .sideContent #boxWrapper form {
@@ -79,4 +83,8 @@ cursor: pointer;
     background-color: #4F45AA;
     color: white;
     margin-top: 5px;
+}
+
+.gmap{
+    opacity: 0.8;
 }
