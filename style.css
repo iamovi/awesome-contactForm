@@ -1,0 +1,82 @@
+*{margin: 0;padding: 0;}
+
+/* default settings */
+body{
+    font-family:sans-serif, arial !important;
+    transition: all 0.5s ease;
+}
+p{
+    line-height: 150%;
+    margin-bottom: 1em;
+}
+.containerFull{
+    width: 100%;
+}
+.fix{
+    overflow: hidden;
+}
+.container{
+    width: 1080px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#header .contact{
+    margin: 40px 0;
+}
+#header .contact  h1{
+    text-align: center;
+    color: blue;
+}
+#header .contact p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+/*content starts ---*/
+.sideContent{
+    width: 540px;
+    margin-top: 50px;
+    float: left;
+}
+
+/* now lets code right side things */
+#sidebar{
+    width: 540px;
+    float: right;
+    margin-bottom: 20px;
+}
+#sidebar .sideContent #boxWrapper{
+    width: 400px;
+    height: 340px;
+    background-color: #EBEBEB;
+    margin-left: 90px;
+    
+}
+#sidebar .sideContent #boxWrapper form {
+width: 300px;
+margin: 0 auto;
+padding: 25px;
+}
+  
+#sidebar .sideContent #boxWrapper form input {
+width: 260px;
+padding: 10px;
+border: 2px solid #ccc;
+margin-bottom: 10px;
+}
+
+#sidebar .sideContent #boxWrapper form  input[type="submit"] {
+background-color: #000;
+color: #fff;
+padding: 10px;
+border: none;
+cursor: pointer;
+}
+#sidebar .sideContent #boxWrapper form button{
+    padding: 10px;
+    background-color: #4F45AA;
+    color: white;
+    margin-top: 5px;
+}
